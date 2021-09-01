@@ -1,0 +1,190 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-caption {
+    bottom: 270px;
+  }
+  
+  
+  .carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: #c076b9;
+  }
+  
+  .carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    color: #a9a9d6;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+  }
+ 
+  
+  .navbar-toggler {
+    background: #fff;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-link {
+    padding: .2rem 1rem;
+  }
+  
+  
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+ .navbar-light .navbar-nav .nav-link {
+  color: rgb(234 27 27 / 50%);
+  font-size: 20px;
+}
+.text, h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 15px;
+}
+.texts{padding-left: 15px;
+  color: #bccad1;}
+p{text-align: center;}
+.hr{margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid maroon;
+  width: 200px;}
+  .para {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 17px;
+}
+
+
+
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+  font-weight: 600;
+}
+
+.card img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+.card-1{
+  background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-2{
+   background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.card-3{
+   background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+      background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+} 
+.abouts{padding-top: 50px;}
+
+
+.skills{padding-left: 15px;
+  color: #bccad1;
+  }
+  .paragraph{text-align: left;
+      padding-top: 8px;}
+     h5{padding: 3pxx;}
+      .Contact {
+        padding-top: 100px;
+
+    }
+    .display-4{padding-bottom: 50px;}
+i.fa.fa-twitter.icons {
+  font-size: 48px;
+  padding-top: 9px;
+
+}
+i.fa.fa-facebook.icons {
+  font-size: 48px;
+  padding-top: 9px;
+
+}
+i.fa.fa-instagram.icons {
+  font-size: 48px;
+  padding-top: 9px;
+}
+i:hover{color: cadetblue;}
+p:hover{color: darkolivegreen;}
+h2:hover{color: darkorange;}
+.text{padding-top: 60px;}
+nav.navbar.navbar-expand-lg.navbar-light.fixed-top {
+  background-color: #bccad1;
+}
+button.btn.btn-danger {
+  background-color: #bccad1;
+  color: black;
+}
+button.btn.btn-lg.btn-block {
+  background-color: #bccad1;
+}
+footer {
+  padding-top: 10px;
+  padding-bottom: 1 0px;
+  background: #bccad1;
+  color: black;
+}
+.Contact{padding-bottom: 50px;}
